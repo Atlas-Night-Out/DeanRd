@@ -1,0 +1,21 @@
+put in head
+
+<script type="text/javascript">
+function mouseOver()
+{
+document.b1.src ="images/redstar2.jpg"
+}
+function mouseOut()
+{
+document.b1.src ="imAges/redstar.jpg"
+}
+</script>
+
+
+put in body
+
+<a <img src="images/redstar2.jpg" name="b1"
+onmouseOver="mouseOver()"
+onmouseOut="mouseOut()">
+<img src="images/redstar.jpg" name="b1" />
+</a>

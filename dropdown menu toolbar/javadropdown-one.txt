@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Pull Down Menus</title>
+	<script type="text/javascript" language="Javascript">
+		<!-- Hide from older browsers
+		
+		if (document.getElementById) {
+			stdBrowser = true
+		}
+		else {
+			stdBrowser = false
+		}
+
+		function toggleMenu(currElem,nextPos) {
+			if (stdBrowser) {
+				menuObj = document.getElementById(currElem).style
+			}
+			else {
+				menuObj = eval("document." + currElem)
+			}
+			if (toggleMenu.arguments.length == 1) {
+				if (parseInt(menuObj.top) == -5) {
+					nextPos = -90
+				}
+				else {
+					nextPos = -5
+				}
+			}
+			if (stdBrowser) {
+				menuObj.top = nextPos + "px"
+			}
+			else {
+				menuObj.top = nextPos
+			}
+		}
+
+		// End hiding -->
+	</script>
+	<style type="text/css">
+		<!--
+		
+		.menu {position:absolute; font:12px arial, helvetica, sans-serif; background-color:#CCCCCC; layer-background-color:#CCCCCC; top:-90px}
+		#fileMenu {left:10px; width:70px}
+		#searchMenu {left:85px; width:100px}
+		A {text-decoration:none; color:#000000}
+		A:hover {background-color:#000099; color:#FFFFFF}
+		
+		-->
+	</style>	
+</head>
+<body bgcolor="white">
+<div id="fileMenu" class="menu" onmouseover="toggleMenu('fileMenu',-5)" onmouseout="toggleMenu('fileMenu',-90)"><br />
+	<a href="javascript:window.open()">Open</a><br />
+	<a href="javascript:window.print()">Print</a><br />
+	<a href="javascript:history.back()">Back</a><br />
+	<a href="javascript:history.forward()">Forward</a><br />
+	<a href="javascript:window.close()">Close</a><hr />
+	<a href="javascript:toggleMenu('fileMenu')">File</a>
+</div>
+<div id="searchMenu" class="menu" onmouseover="toggleMenu('searchMenu',-5)" onmouseout="toggleMenu('searchMenu',-90)"><br />
+	<a href="http://www.google.com">Google</a><br />
+	<a href="http://www.ask.com">Ask Jeeves</a><br />
+	<a href="http://www.alltheweb.com">All The Web</a><br />
+	<a href="http://www.av.com">AltaVista</a><br />
+	<a href="http://www.dmoz.com">Open Directory</a><hr />
+	<a href="javascript:toggleMenu('searchMenu')">Search</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+
+/*  This is the background image to my left toolbar and top heading green one!!!*/
+body{
+  background : url(images/green_background-1024x900.jpg);
+}
+
+/*  background color of  my left toolbar*/
+div.lefttoolbar{
+  position:absolute;
+  background-color : Purple;
+  margin-left : 8px;
+  margin-right : 980px;
+  background-position : center;
+  margin-top : 0px;
+  margin-bottom : 60px;
+  background-image : url(images/lgren077.jpg);
+}
+
+/*  Top heading setup*/
+div.top {
+  position:absolute;
+  width : 800px;
+  height : 90px;
+  background : url(images/deanrdfinished.gif);
+  margin-left : 100px;
+  border-bottom : double Lime;
+  border-top-width : inherit;
+  border-top-style : double;
+  border-top-color : Lime;
+  border-right-style : solid;
+  border-right-color : Lime;
+  border-left-style : solid;
+  border-left-color : Lime;
+}
+
+/*  Top heading setup leftside*/
+div.side{
+  position:absolute;
+  background : url(images/toolbarone.gif) ;
+  width: 100px;
+  height: 90px;
+  margin-top : 0px;
+  border-bottom : double Lime;
+  border-left-style : double;
+  border-left-color : Lime;
+  border-top-width : inherit;
+  border-top-style : double;
+  border-top-color : Lime;
+}
+	
+/*  Top heading setup rightside*/
+div.rside{
+  position:absolute;
+  background: url(images/toolbarone.gif);
+  width:82px;
+  height: 90px;
+  margin-top : 0px;
+  margin-left : 900px;
+  border-bottom : double Lime;
+  border-top-width : inherit;
+  border-top-style : double;
+  border-top-color : Lime;
+  border-right-style : double;
+  border-right-color : Lime;
+}
+
+br {clear: both} 
+
+
+
+
+
+

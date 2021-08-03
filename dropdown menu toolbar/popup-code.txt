@@ -1,0 +1,20 @@
+copy into head
+
+<script language="javascript" type="text/javascript">
+<!--
+function popitup(url)
+{
+	newwindow=window.open(url,'name','resizable,height=310,width=340');
+	if (window.focus) {newwindow.focus()}
+	return false;
+}
+
+// -->
+</script>
+
+
+
+
+put into body
+
+<p class="submenu" ><a href='http://www.google.co.uk//' onclick="return popitup('http://www.google.co.uk//')">Google</a></p>

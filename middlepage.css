@@ -1,0 +1,174 @@
+/*to change the middle of my web page*/
+body{ 
+  background-image : url(images/lgren077.jpg);
+}
+
+/*left table in cafe*/
+.tableone{
+  border-bottom-width: thick;
+  width: 300px;
+  float: left;
+  margin-left: 15px;
+  background-color: Green;
+  border: 5px double #2E8B57;
+}
+/*right table in cafe*/
+.tabletwo{
+  border-bottom-width: thick;
+  width: 300px;
+  float: right;
+  margin-right: 15px;
+  background-color: Green;
+  border: 5px double #2E8B57;
+}
+
+/*inside table borders*/
+.td{
+  border: double Lime;
+  background: url(images/lgren077.jpg);
+  padding:25px;
+}
+
+/*entrance image on main page*/
+#entrance{
+  background-color: none;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/*shop image on main page*/
+#shop {
+  width:270px;
+  height:222px;
+  margin-left :10px;
+  margin-right :1px;
+  background-color :transparent;
+  background-position :center;
+  float :left;
+} 
+ 
+ /*shop palm image*/
+#palmtree{
+  width: 300px;
+  height: 225px;
+  background-color : transparent;
+  background-position : right;
+  float : right;
+}
+ /*shop parrot image*/
+#parrot{
+  width: 330px;
+  height: 225px;
+  background-color : transparent;
+  background-position : right;
+  float : left;
+}
+ 
+ /*shop table image*/
+#tablefood{
+  margin-top :1px;
+  margin-left :50px;
+  margin-right :1px;
+  float : left;
+  width : 197px;
+  height : 194px;
+}
+
+/*shop table image*/
+#tablefoodtwo{
+  margin-top : 1px;
+  margin-left : 10px;
+  margin-right : 50px;
+  display : block;
+  float : right;
+  width : 242px;
+  height : 206px;
+}
+
+/*reception image*/
+#reception{
+  margin-top : 1px;
+  margin-left : 100px;
+  margin-right : 1px;
+  display : block;
+  width : 500px;
+  height : 375px;
+}
+	
+	/*shop image*/
+#toybookpen{
+  width : 321px;
+  height : 125px;
+}
+
+/*shop man at bottom*/
+#sap{
+  width : auto;
+  height : 125px;
+  margin-top : 100px;
+  margin-left : auto;
+  margin-right : auto;
+  background-image : url(images/sap.gif);
+  background-repeat : no-repeat;
+  background-position : right;
+}
+
+#contents {
+  width: 500px
+  margin-left : 20px;
+  margin-right : 20px;
+}
+
+/*normal paragraph*/
+p{ 
+  font-size:1.2em;
+  color: Black;
+  font-family : sans-serif,Arial ;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+	
+	/*paragraph in my table for cafe*/
+h3{
+  font-family: fantasy,Arial, cursive;
+  color: #336633;
+  font-size: 1.2em;
+  z-index : 1;
+  text-align: center;
+}
+	
+/*line across*/
+  hr {margin-left: 50;
+  margin-right:50;
+  width: 400px;
+  color: #336633;
+}
+
+/*heading for under plants*/
+h2{
+  margin-left : 50px;
+  font-size : 1em;
+  color : #cc0099;
+}
+
+/*Main heading*/
+h1{
+  font-size: 2.5em;
+  text-align : center;
+  color : #cc0099;
+  font-family : Algerian, Arial;
+}
+	
+/*linking*/
+a{
+  color: Green;
+}
+
+A:link {text-decoration: none}
+A:visited {text-decoration:none}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline; color: Fuchsia;}
+}
+
+  br {clear: both
+} 

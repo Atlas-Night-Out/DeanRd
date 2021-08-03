@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>hometb</title>
+<link rel = "stylesheet" title = "daves first styles" type = "text/css" href = "sample.css">
+
+<script type="text/javascript">
+
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		hometb_02_over = newImage("images/hometb_02-over.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</script>
+<!-- End Preload Script -->
+</head>
+<body onload="preloadImages();">
+<div class="lefttoolbar">
+<a href="mainwebpage.html" target="middle"onClick="window.self.location='lefttool.html'"target="left"
+	onmouseover="changeImages('hometoolbartwo_01', 'images/hometoolbartwo_01-over.gif'); return true;"
+	onmouseout="changeImages('hometoolbartwo_01', 'images/hometoolbartwo_01.gif'); return true;"
+	onmousedown="changeImages('hometoolbartwo_01', 'images/hometoolbartwo_01-over.gif'); return true;"
+	onmouseup="changeImages('hometoolbartwo_01', 'images/hometoolbartwo_01-over.gif'); return true;">
+	<img name="hometoolbartwo_01" src="images/hometoolbartwo_01.gif" width="97" height="35" border="0" alt=""></a><br><br>
+
+<a href="shop.html" target="middle" onClick="window.self.location='lefttoolshop.html'"target="left"
+	onmouseover="changeImages('shoptoolbar_01', 'images/shoptoolbar_01-over.gif'); return true;"
+	onmouseout="changeImages('shoptoolbar_01', 'images/shoptoolbar_01.gif'); return true;"
+	onmousedown="changeImages('shoptoolbar_01', 'images/shoptoolbar_01-over.gif'); return true;"
+	onmouseup="changeImages('shoptoolbar_01', 'images/shoptoolbar_01-over.gif'); return true;">
+	<img name="shoptoolbar_01" src="images/shoptoolbar_01.gif" width="97" height="35" border="0" alt=""></a><br><br>
+
+
+<a href="plants.html" target="middle" onClick="window.self.location='lefttoolshop.html'"target="left"
+	onmouseover="changeImages('plants_01', 'images/plants_01-over.gif'); return true;"
+	onmouseout="changeImages('plants_01', 'images/plants_01.gif'); return true;"
+	onmousedown="changeImages('plants_01', 'images/plants_01-over.gif'); return true;"
+	onmouseup="changeImages('plants_01', 'images/plants_01-over.gif'); return true;">
+	<img name="plants_01" src="images/plants_01.gif" width="97" height="35" border="0" alt=""></a><br><br>
+
+<a href="gifts.html" target="middle" onClick="window.self.location='lefttoolshop.html'"target="left"
+	onmouseover="changeImages('gifts_01', 'images/gifts_01-over.gif'); return true;"
+	onmouseout="changeImages('gifts_01', 'images/gifts_01.gif'); return true;"
+	onmousedown="changeImages('gifts_01', 'images/gifts_01-over.gif'); return true;"
+	onmouseup="changeImages('gifts_01', 'images/gifts_01-over.gif'); return true;">
+	<img name="gifts_01" src="images/gifts_01.gif" width="97" height="35" border="0" alt=""></a><br><br>
+
+<a href="cafe.html" target="middle" onClick="window.self.location='lefttoolcafe.html'"target="left"
+	onmouseover="changeImages('cafetoolbar_01', 'images/cafetoolbar_01-over.gif'); return true;"
+	onmouseout="changeImages('cafetoolbar_01', 'images/cafetoolbar_01.gif'); return true;"
+	onmousedown="changeImages('cafetoolbar_01', 'images/cafetoolbar_01-over.gif'); return true;"
+	onmouseup="changeImages('cafetoolbar_01', 'images/cafetoolbar_01-over.gif'); return true;">
+	<img name="cafetoolbar_01" src="images/cafetoolbar_01.gif" width="97" height="35" border="0" alt=""></a><br><br>
+
+<a href="reception.html" target="middle" onClick="window.self.location='lefttoolreception.html'"target="left"
+	onmouseover="changeImages('contactustoolbar_01', 'images/contactustoolbar_01-over.gif'); return true;"
+	onmouseout="changeImages('contactustoolbar_01', 'images/contactustoolbar_01.gif'); return true;"
+	onmousedown="changeImages('contactustoolbar_01', 'images/contactustoolbar_01-over.gif'); return true;"
+	onmouseup="changeImages('contactustoolbar_01', 'images/contactustoolbar_01-over.gif'); return true;">
+	<img name="contactustoolbar_01" src="images/contactustoolbar_01.gif" width="97" height="35" border="0" alt=""></a><br>
+
+<img src="images/shoptwo.gif"/><br>
+</body>
+</html>
+

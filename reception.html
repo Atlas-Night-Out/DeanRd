@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<link rel = "stylesheet" title = "daves first styles" type = "text/css" href = "middlepage.css">
+<link rel="stylesheet" type="text/css" href="dropdown.css">
+ <script language="javascript1.2" src="controller.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function popitup(url)
+{
+	newwindow=window.open(url,'name','resizable,height=310,width=340');
+	if (window.focus) {newwindow.focus()}
+	return false;
+}
+
+// -->
+</script>
+	
+</head>
+<body>
+
+
+<div id="content">
+<h1>Contact Us</h1>
+<h1>Our staff are here to help! </h1>
+<center><img src="images/Reception.jpg"></center>
+<center><p>Dean Rd Tropical Garden Centre <a href="lefttoolreception.html"onClick="window.self.location='http://maps.google.com/maps?f=q&hl=en&q=Back+Deane+Road+North,+Bolton,+Greater+Manchester,+BL3,+UK&t=h&om=1&ll=53.574111,-2.438364&spn=0.022119,0.085144'"target="left"><FONT COLOR="#336633"><strong>Map</strong></FONT></a><br>Dean Rd <br>Bolton <br>BL6 2BT <br><FONT COLOR="#cc0099">Telephone:</FONT> 01204-66490<br><FONT COLOR="#cc0099">Fax:</FONT> 01204-66491<br><FONT COLOR="#cc0099">e-mail:</FONT> deanrdtropical@btinternet.com</p></center><br><br>
+</div>
+
+<div id="contenttwo">
+<body bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#800080" alink="#ff0000"> 
+<form action="script1.php" method="post"> 
+<H3>BROCHURE REQUEST FORM</H3> 
+<HR> 
+<!-- Demo of TEXT type --> 
+<center><B>Your Details...</B> 
+<BR>First Name-<input type="text" name="firstname"  size="12" maxlength="20"> 
+<BR>Last Name-<input type="text" name="surname"   size="12" maxlength="20"> 
+<BR>Address-<input type="text" name="Address"   size="12" maxlength="30">
+<BR>Date of birth-<input type="text" name="dob"  size="12" maxlength="20"> 
+<!-- Demo of RESET --> 
+<BR> 
+<BR><input type="reset" value="Clear Form"> 
+<!-- Demo of SUBMIT --> 
+<BR> 
+<BR><input type="submit" value="Submit Information"> 
+</form> 
+<HR><br>
+</div>
+<div id="main_menu"> 
+ <table border="0" cellpadding="0" cellspacing="0">
+ <tr>
+ <td class="toolbar"><a href="/products/" onMouseOver="showMenu('menu_prod')" onMouseOut="hide()"('menu_prod')">_____</a></td>
+ <td class="toolbartwo"><a href="/Support/" onMouseOver="showMenu('menu_supp')" onMouseOut="hide()"('menu_supp')"> ____ </a></td>
+ <td class="toolbarthree"><a href="/Download/" onMouseOver="showMenu('menu_down')" onMouseOut="hide()"('menu_down')">_____</a></td>
+ <td class="toolbar"><a href="/About/" onMouseOver="showMenu('menu_abou')" onMouseOut="hide()"('menu_abou')">____</a></td>
+ </tr>
+</div>
+</table>
+
+<div id="menu_prod" onMouseOver="dontHide()" onMouseOut="hide()">
+ <p class="submenu" ><a href="lefttool.html" target="left"onClick="window.self.location='mainwebpage.html'"target="middle">Home</a></p>
+ <p class="submenu" ><a href="lefttoolreception.html" target="left"onClick="window.self.location='reception.html'"target="middle">Contact Us</a></p>
+ 
+ </div>
+ <div id="menu_supp" onMouseOver="dontHide()" onMouseOut="hide()">  
+ <p class="submenu" ><a href='gardenopeningtimes.html' onclick="return popitup('gardenopeningtimes.html')">Garden opening Times.</a></p>
+ <p class="submenu" ><a href='kidsactivityopening.html' onclick="return popitup('kidsactivityopening.html')">Activity opening Times.</a></p>
+ <p class="submenu" ><a href='cafeopeningtimes.html' onclick="return popitup('cafeopeningtimes.html')">Cafe opening Times.</a></p>
+ <p class="submenu" ><a href=' ticketprice.html' onclick="return popitup(' ticketprice.html')">Ticket Price</a></p>
+ <p class="submenu" ><a href='http://maps.google.co.uk/maps?f=q&hl=en&q=Deane+Road+North,+Bolton,+Greater+Manchester,+BL3,+UK&ll=53.573907,-2.446346&spn=0.022527,0.085831&om=1//' onclick="return popitup('http://maps.google.co.uk/maps?f=q&hl=en&q=Deane+Road+North,+Bolton,+Greater+Manchester,+BL3,+UK&ll=53.573907,-2.446346&spn=0.022527,0.085831&om=1//')">Find Us</a></p>
+ </div>
+ <div id="menu_down" onMouseOver="dontHide()" onMouseOut="hide()"> 
+ <p class="submenu" ><a href='http://www.google.co.uk//' onclick="return popitup('http://www.google.co.uk//')">Google</a></p>
+ <p class="submenu" ><a href='http://www.yahoo.com//' onclick="return popitup('http://www.yahoo.com//')">Yahoo</a></p>
+ <p class="submenu" ><a href='http://www.altavista.com//' onclick="return popitup('http://www.altavista.com//')">Altavista</a></p>
+ <p class="submenu" ><a href='http://www.lycos.com//' onclick="return popitup('http://www.lycos.com//')">Lycos</a></p>
+ </div>
+ <div id="menu_abou" onMouseOver="dontHide()" onMouseOut="hide()">
+ <p class="submenu" ><a href="lefttool.html" target="left"onClick="window.self.location='mainwebpage.html'"target="middle">Home</a></p>
+ <p class="submenu" ><a href="lefttoolreception.html" target="left"onClick="window.self.location='reception.html'"target="middle">Contact Us</a></p>
+ </div>
+
+
+</body>
+</html>
+<!-- File: form1.html 
+      Job:     HTML FORM DEMONSTRATION needs to work in conjunction with script1.php 
+      By :     Martin Stanhope     Date: 22-Nov-2005   
+
+--> 
+  
+<html> 
+<head> 
+<title>INFORMATION REQUEST FORM</title> 
+</head> 
+
+</body> 
+</html> 

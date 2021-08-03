@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+ "http://www.w3.org/TR/html4/loose.dtd">
+ <html>
+ <head>
+ <link rel="stylesheet" type="text/css" href="dropdown.css">
+ <script language="javascript1.2" src="controller.js"></script>
+ <title>MyCompany Home Page</title>
+ </head>
+
+ <body>
+
+  
+
+<div id="content">
+ <h1>Welcome to MyCompany</h1>
+ <p>We are the leading provider of software and services in the Bolton area. Our customers tell us that they can't believe we're not cheaper! </p></div>
+ 
+
+<div id="main_menu"> 
+ <table border="1" cellpadding="0" cellspacing="0">
+ <tr>
+ <td class="toolbar"><a href="/products/" onMouseOver="showMenu('menu_prod')" onMouseOut="hide()"('menu_prod')">Ticket Price</a></td>
+ <td class="toolbar"><a href="/Support/" onMouseOver="showMenu('menu_supp')" onMouseOut="hide()"('menu_supp')">test2</a></td>
+ <td class="toolbar"><a href="/Download/" onMouseOver="showMenu('menu_down')" onMouseOut="hide()"('menu_down')">test3</a></td>
+ <td class="toolbar"><a href="/About/" onMouseOver="showMenu('menu_abou')" onMouseOut="hide()"('menu_abou')">test4</a></td>
+ </tr>
+</div>
+ </table>
+
+
+<div id="menu_prod" onMouseOver="dontHide()" onMouseOut="hide()">
+ <p class="submenu" ><a href='http://www.google.co.uk'>Google</a></p>
+ <p class="submenu" ><a href='garden.html'>Home</a></p>
+ <p class="submenu" >Legacy System</p>
+ </div>
+ <div id="menu_supp" onMouseOver="dontHide()" onMouseOut="hide()">  
+ <p class="submenu" >Support Contract</p>
+ <p class="submenu" >Knowledge Base</p>
+ <p class="submenu" >Register</p>
+ </div>
+ <div id="menu_down" onMouseOver="dontHide()" onMouseOut="hide()"> 
+ <p class="submenu" >Free Evaluation</p>
+ <p class="submenu" >Which Product</p>
+ </div>
+ <div id="menu_abou" onMouseOver="dontHide()" onMouseOut="hide()">
+ <p class="submenu" ><a href="/Press/">Press Room</a></p>
+ <p class="submenu" >Investor Relations</p>
+ <p class="submenu" >History</p>
+ <p class="submenu" >Office Locations</p>
+ </div>
+
+</body>
+ </html>

@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>plants</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- ImageReady Preload Script (plants.psd) -->
+<script type="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		plants_01_over = newImage("images/plants_01-over.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</script>
+<!-- End Preload Script -->
+</head>
+<body bgcolor="#336633" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="preloadImages();">
+<!-- ImageReady Slices (plants.psd - Slices: 01) -->
+<a href="#"
+	onmouseover="changeImages('plants_01', 'images/plants_01-over.gif'); return true;"
+	onmouseout="changeImages('plants_01', 'images/plants_01.gif'); return true;"
+	onmousedown="changeImages('plants_01', 'images/plants_01-over.gif'); return true;"
+	onmouseup="changeImages('plants_01', 'images/plants_01-over.gif'); return true;">
+	<img name="plants_01" src="images/plants_01.gif" width="97" height="35" border="0" alt=""></a>
+<!-- End ImageReady Slices -->
+</body>
+</html>

@@ -1,0 +1,105 @@
+
+   
+
+a {
+     text-decoration: none;
+     color: #66ff66;
+   }
+   td.toolbar {
+     background-color:#336633;
+     color:#66ff66;
+     font-family:Verdana, Arial, Helvetica, sans-serif;
+     font-size:1.1em;
+     width: 150px;
+     text-align: center;
+     border: 1px;
+     border-color: #66ff66;
+     padding-top: 1px;
+     padding-bottom: 1px;
+    
+   }
+
+#content {
+     width: 600px;
+     height: auto;
+     border-color:#000033;
+     padding: 2 px;
+     position: absolute;
+     left: 1px;
+     top: 38px;
+     background-color: #FFCCCC;
+	  margin-left: 25px;
+   }
+
+
+
+
+#main_menu {
+   position: absolute;
+   left: 0;
+   top: 30;
+	margin-left: 225px;
+   }
+
+#menu_prod {
+   position:absolute;
+   left: 0px;
+   top: 26px;
+   width: 150px;
+   z-index: 1;
+visibility: hidden;
+}
+
+#menu_supp {
+   position: absolute;
+   left: 150px;
+   top: 26px;
+   width: 150px;
+   z-index: 1;
+visibility: hidden;
+}
+
+#menu_down {
+   position: absolute;
+   left: 300px;
+   top: 26px;
+   width: 150px;
+   z-index: 1;
+visibility: hidden;
+}
+
+#menu_abou {
+   width: 150px;
+   z-index: 1;
+   top: 26px;
+   position: absolute;
+   left: 450px;
+visibility: hidden;
+}
+
+
+
+p.submenu {
+  
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   padding: 2;
+   width: 90px;
+   left: 1px;
+	
+   z-index: 1;
+   font-size: 1.0em;
+   background-color: #336633;
+   background-attachment: fixed;
+	margin-left: 25px;
+}
+   
+p.submenu a:link {
+   color: #FFFF33;
+}
+  
+p.submenu a:hover {
+   background-color: Yellow;
+   color: #66ff66;
+}
+
